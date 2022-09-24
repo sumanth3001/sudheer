@@ -1,56 +1,91 @@
 
+
+<!DOCTYPE html>
 <html>
 <head>
+
 <style>
-  body {background-image: url('bi.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-   background-size: 100% 100%;}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+table{
+ margin:auto;
+ border-collapse:collapsed;
+ 
 }
+.one button{
 
-li {
-  float: left;
-  border-right:1px solid #bbb;
-}
+width:90px;
+height:90px;
+background-color:gray;
+margin:1px;
+border:4px solid black;
+border-radius:50%;
 
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
 }
 </style>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+  integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA="
+  crossorigin="anonymous"></script>
+
 </head>
 <body>
 
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="about.html">News</a></li>
-  <li><a href="contacts.html">Contact</a></li>
-  <li style="float:right"><a href="#about">About</a></li>
-</ul>
-<h1><b>WELCOME TO WEB PAGE</b></h1>
-<p><b>This is me kulkarni sumanth</b></p>
-<p1>Let it work first</p1>
+<h1 align="center">4 match game</h1>
+<h3 align="center">you can select which column to drop your colour </h3>
+<table class="one" align='center'>
+<tr>
+     <td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td></tr>
+<tr>
+     <td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td></tr>
+<tr>
+     <td><button typr="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td></tr>
+<tr>
+     <td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td></tr>
+<tr>
+     <td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td></tr>
+<tr>
+     <td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td>
+<td><button type="button"></button></td></tr>
 
+  
+  
+</table>
+<script src="game.js"></script>
 </body>
 </html>
