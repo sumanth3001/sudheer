@@ -86,6 +86,6 @@ border-radius:50%;
   
   
 </table>
-<script src="game.js"></script>
+<script src="javascripts/main.js "></script>
 </body>
 </html>
